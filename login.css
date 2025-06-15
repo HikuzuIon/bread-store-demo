@@ -1,0 +1,101 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(image/background-removebg-preview.png);
+    background-size: contain;
+    background-position: center;
+    background-color: blanchedalmond;
+}
+.wrapper{
+    width:420px;
+    background:transparent;
+    color: rgb(188, 200, 175);
+   
+    padding: 30px 40px;
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative; 
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 15px;
+    border: black;
+   box-shadow: 0 0 10px black;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: rgb(10, 10, 10);
+    text-align:left;
+    padding: 10px;
+  
+}
+.input-box img{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    
+}
+
+.wrapper .btn {
+    width:100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.ke-order{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 0px 45px;
+}
+
+.ke-order a {
+    text-decoration: none;
+    color: black;
+}
+
+.ke-order a:hover{
+    color: rgb(59, 95, 174);
+    font-size: large;
+    transition: all .2s;   
+    
+}
+.footer {
+    padding: 15px;
+    text-align: center;
+}
